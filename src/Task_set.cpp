@@ -57,7 +57,7 @@ while(hyper >=time){
         for(int j=0;j<=s;j++)
          {
 
-            if ((new_tasks[j].execution + time) <= (new_tasks[j].period+time) &&  ){
+            if ((new_tasks[j].execution + time) <= (new_tasks[j].period+time)  ){
 
             std::cout<<"From time: " <<time<<" to : " <<time + new_tasks[j].execution <<"   TASK " << new_tasks[j].id << " is executed \n";
             time += new_tasks[j].execution;
